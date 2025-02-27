@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App with Graph</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Include Chart.js -->
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="searchBtn">Search</button>
+        <div id="weatherInfo">
+            <!-- Current weather data will be displayed here -->
+        </div>
+        <div>
+            <h2>Last 7 Days Weather</h2>
+            <canvas id="weatherChart"></canvas> <!-- Canvas for the graph -->
+        </div>
+    </div>
+    <script src="script_app.js"></script>
+</body>
+</html>
